@@ -1319,7 +1319,7 @@ int vg_read_file(FILE *fp, char ***result, int *rescount)
 				{
 
 					/* Remove last character */
-					pat[strlen(pat) - 1] = 0;
+					//pat[strlen(pat) - 1] = 0;
 
 					if (npatterns == nalloc)
 					{
